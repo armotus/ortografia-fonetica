@@ -21,10 +21,10 @@ let myBox6 = document.getElementById("myBox6");
 let myListB = document.getElementById("myListB");
 let myBoxAa = document.getElementById("myBoxAa");
 let myBoxSp = document.getElementById("myBoxSp");
-let myFraze = "Se escribe como se pronunzia i se pronunzia como se escribe";
-let myFrase = "Se escribe como se pronunsia i se pronunsia como se escribe";
-let myFlaze = "Se esclibe como se plonunzia i se plonunzia como se esclibe";
-let myFlase = "Se esclibe como se plonunsia i se plonunsia como se esclibe";
+let myFraze = "Se eskribe komo se pronunzia i se pronunzia komo se eskribe";
+let myFrase = "Se eskribe komo se pronunsia i se pronunsia komo se eskribe";
+let myFlaze = "Se esklibe komo se plonunzia i se plonunzia komo se esklibe";
+let myFlase = "Se esklibe komo se plonunsia i se plonunsia komo se esklibe";
 // BOTONERA SUPERIOR
 function myFunction1() {
 	if ( myBox1.checked == true ) {

@@ -7,16 +7,16 @@ let ortografia = require("../js/ortografia-simplificada.js");
 
 describe("#ortografia-simplificada", function() {
 	it("Versión 1", function() {
-	let result = ortografia.Simplificar("vacaciones pingüino seguido queso argentino hola rey kilogramo",1,0,0,0,0,0,0);
-	expect(result).to.equal("bacaziones pinguino segido ceso arjentino ola rei cilogramo");
+	let result = ortografia.Simplificar("vacaciones pingüino seguido queso argentino hola rey cimiento",1,0,0,0,0,0,0);
+	expect(result).to.equal("bakaziones pinguino segido keso arjentino ola rei zimiento");
 	});
 	it("Versión 1 + Yeísmo", function() {
 	let result = ortografia.Simplificar("caballo",1,1,0,0,0,0,0);
-	expect(result).to.equal("cabayo");
+	expect(result).to.equal("kabayo");
 	});
 	it("Versión 1 + Seseo", function() {
 	let result = ortografia.Simplificar("cabeza",1,0,1,0,0,0,0);
-	expect(result).to.equal("cabesa");
+	expect(result).to.equal("kabesa");
 	});
 	it("Versión 1 + Neísmo", function() {
 	let result = ortografia.Simplificar("niño",1,0,0,1,0,0,0);
@@ -28,7 +28,7 @@ describe("#ortografia-simplificada", function() {
 	});
 	it("Versión 2", function() {
 	let result = ortografia.Simplificar("plancha caballo perro rosa siembra siempre axioma xilófono",2,0,0,0,0,0,0);
-	expect(result).to.equal("planha cabako pevo vosa sienbra sienpre acsioma silófono");
+	expect(result).to.equal("planha kabaqo pevo vosa sienbra sienpre aksioma silófono");
 	});
 	it("Versión 2 + Yeísmo", function() {
 	let result = ortografia.Simplificar("lluvia",2,1,0,0,0,0,0);
@@ -48,10 +48,10 @@ describe("#ortografia-simplificada", function() {
 	});
 	it("Mayúsculas:minúsculas (A:a)", function() {
 	let result = ortografia.Simplificar("La Casa Verde",1,0,0,0,0,1,0);
-	expect(result).to.equal("la casa berde");
+	expect(result).to.equal("la kasa berde");
 	});
 	it("Signos de puntuación (“¿¡”)", function() {
 	let result = ortografia.Simplificar("¿Por qué? ¡Qué! «sí» “no” ‘no sé’ `tal vez´",2,0,0,0,0,0,1);
-	expect(result).to.equal('Por cé? Cé! "sí" "no"' + " 'no sé' 'tal bez'");
+	expect(result).to.equal('Por ké? Ké! "sí" "no"' + " 'no sé' 'tal bez'");
 	});
 });

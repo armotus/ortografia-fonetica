@@ -1,6 +1,6 @@
 # ORTOGRAFÍA SIMPLIFICADA
 
-Una inclusiva simplificación de la ortografía en la lengua española.
+Una inclusiva simplificación de la ortografía en la lengua española (fork)
 
 ## IMAGENES
 
@@ -20,9 +20,9 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 &#8226; 4.&nbsp; El dígrafo 'gu' se reemplaza por la letra suave 'g' en las combinaciones 'gue' y 'gui'.
 
-&#8226; 5.&nbsp; El dígrafo 'qu' se reemplaza por la letra 'c' en las combinaciones 'que' y 'qui'.
+&#8226; 5.&nbsp; El dígrafo 'qu' se reemplaza por la letra 'k' en las combinaciones 'que' y 'qui'.
 
-&#8226; 6.&nbsp; La letra 'q' y la letra 'k' se reemplazan por la letra 'c'.
+&#8226; 6.&nbsp; La letra 'q' y la letra 'c' se reemplazan por la letra 'k'.
 
 &#8226; 7.&nbsp; La letra vocal 'y' se reemplaza por la letra vocal 'i'.
 
@@ -34,7 +34,7 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 &#8226; 1.&nbsp; El dígrafo 'ch' se reemplaza por la letra 'h'.
 
-&#8226; 2.&nbsp; El dígrafo 'll' se reemplaza por la letra 'k'.
+&#8226; 2.&nbsp; El dígrafo 'll' se reemplaza por la letra 'q'.
 
 &#8226; 3.&nbsp; El dígrafo 'rr' se reemplaza por la letra 'v'.
 
@@ -46,7 +46,7 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 ## RESUMEN
 
-&#8226; 1.&nbsp; La letra 'c' siempre se pronuncia como la letra 'k'. (&nbsp;v1&nbsp;) {&nbsp;letra 'c' = fonema /k/&nbsp;}
+&#8226; 1.&nbsp; La letra 'k' siempre se pronuncia como la letra 'k'. (&nbsp;v1&nbsp;) {&nbsp;letra 'k' = fonema /k/&nbsp;}
 
 &#8226; 2.&nbsp; La letra 'g' siempre se pronuncia como la letra suave 'g'. (&nbsp;v1&nbsp;) {&nbsp;letra 'g' = fonema /g/&nbsp;}
 
@@ -54,7 +54,7 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 &#8226; 4.&nbsp; La letra 'v' siempre se pronuncia como la letra fuerte 'r'. (&nbsp;v2&nbsp;) {&nbsp;letra 'v' = fonema /r/&nbsp;}
 
-&#8226; 5.&nbsp; La letra 'k' siempre se pronuncia como el dígrafo 'll'. (&nbsp;v2&nbsp;) {&nbsp;letra 'k' = fonema /&#654;/&nbsp;}
+&#8226; 5.&nbsp; La letra 'q' siempre se pronuncia como el dígrafo 'll'. (&nbsp;v2&nbsp;) {&nbsp;letra 'q' = fonema /&#654;/&nbsp;}
 
 &#8226; 6.&nbsp; La letra 'h' siempre se pronuncia como el dígrafo 'ch'. (&nbsp;v2&nbsp;) {&nbsp;letra 'h' = fonema /&#116;&#865;&#643;/&nbsp;}
 
@@ -62,7 +62,7 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 &#8226; 1.&nbsp; El fonema /b/ puede ser representado por la letra 'b' o la letra 'v'.
 
-&#8226; 2.&nbsp; El fonema /k/ puede ser representado por la letra 'c', la letra 'k' o la letra 'q'.
+&#8226; 2.&nbsp; El fonema /k/ puede ser representado por la letra 'k', la letra 'c' o la letra 'q'.
 
 &#8226; 3.&nbsp; La versión 2 siempre debe adaptarse a las reglas establecidas por la versión 1.
 
@@ -109,7 +109,7 @@ let textoIntegral = ortografia.Simplificar(texto,1,0,0,0,0,0,0);
 
 console.log(textoIntegral);
 
-// Se escribe como se pronunzia i se pronunzia como se escribe
+// Se eskribe komo se pronunzia i se pronunzia komo se eskribe
 ```
 
 ## TEST
@@ -120,7 +120,7 @@ npm test
 
 ## DEMO
 
-[HOME](https://harmotus.github.io/ortografia-simplificada)
+[HOME](https://armotus.github.io/ortografia-simplificada)
 
 ## LICENCIA
 

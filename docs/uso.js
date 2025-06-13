@@ -8,4 +8,4 @@ let textoIntegral = ortografia.Simplificar(texto,1,0,0,0,0,0,0);
 
 console.log(textoIntegral);
 
-// Se escribe como se pronunzia i se pronunzia como se escribe
+// Se eskribe komo se pronunzia i se pronunzia komo se eskribe

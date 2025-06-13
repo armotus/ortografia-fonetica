@@ -32,16 +32,22 @@ function Simplificar(texto,v,y,s,n,l,a,p) {
 	texto = texto.replace(/gue/g,"ge").replace(/gui/g,"gi");
 	texto = texto.replace(/Gue/g,"Ge").replace(/Gui/g,"Gi");
 	texto = texto.replace(/GUE/g,"GE").replace(/GUI/g,"GI");
-	// El dígrafo 'qu' se reemplaza por la letra 'c' en las combinaciones 'que' y 'qui'.
-	texto = texto.replace(/que/g,"ce").replace(/qui/g,"ci");
-	texto = texto.replace(/Que/g,"Ce").replace(/Qui/g,"Ci");
-	texto = texto.replace(/QUE/g,"CE").replace(/QUI/g,"CI");
-	// La letra 'q' se reemplaza por la letra 'c'.
-	texto = texto.replace(/q/g,"c");
-	texto = texto.replace(/Q/g,"C");
-	// La letra 'k' se reemplaza por la letra 'c'.
-	texto = texto.replace(/k/g,"c");
-	texto = texto.replace(/K/g,"C");
+	// El dígrafo 'qu' se reemplaza por la letra 'k' en las combinaciones 'que' y 'qui'.
+	texto = texto.replace(/que/g,"ke").replace(/qui/g,"ki");
+	texto = texto.replace(/Que/g,"Ke").replace(/Qui/g,"Ki");
+	texto = texto.replace(/QUE/g,"KE").replace(/QUI/g,"KI");
+	// La letra 'q' se reemplaza por la letra 'k'.
+	texto = texto.replace(/q/g,"k");
+	texto = texto.replace(/Q/g,"K");
+	// La letra 'c' se reemplaza por la letra 'k'.
+	texto = texto.replace(/ch/g,"æý");
+	texto = texto.replace(/Ch/g,"Æý");
+	texto = texto.replace(/CH/g,"ÆÝ");
+	texto = texto.replace(/c/g,"k");
+	texto = texto.replace(/C/g,"K");
+	texto = texto.replace(/æý/g,"ch");
+	texto = texto.replace(/Æý/g,"Ch");
+	texto = texto.replace(/ÆÝ/g,"CH");
 	// La letra vocal 'y' se reemplaza por la letra vocal 'i'.
 	texto = texto.replace(/ya/g,"çaç").replace(/ye/g,"çeç").replace(/yi/g,"çiç").replace(/yo/g,"çoç").replace(/yu/g,"çuç");
 	texto = texto.replace(/Ya/g,"Çaç").replace(/Ye/g,"Çeç").replace(/Yi/g,"Çiç").replace(/Yo/g,"Çoç").replace(/Yu/g,"Çuç");
@@ -72,11 +78,11 @@ function Simplificar(texto,v,y,s,n,l,a,p) {
 		texto = texto.replace(/Ch/g,"H");
 		texto = texto.replace(/CH/g,"H");
 	};
-	// El dígrafo 'll' se reemplaza por la letra 'k'.
+	// El dígrafo 'll' se reemplaza por la letra 'q'.
 	if ( v == 2 ) {
-		texto = texto.replace(/ll/g,"k");
-		texto = texto.replace(/Ll/g,"K");
-		texto = texto.replace(/LL/g,"K");
+		texto = texto.replace(/ll/g,"q");
+		texto = texto.replace(/Ll/g,"Q");
+		texto = texto.replace(/LL/g,"Q");
 	};
 	// El dígrafo 'rr' se reemplaza por la letra 'v'.
 	if ( v == 2 ) {
@@ -98,13 +104,13 @@ function Simplificar(texto,v,y,s,n,l,a,p) {
 		texto = texto.replace(/mb/g,"nb").replace(/mp/g,"np").replace(/mn/g,"nn");
 		texto = texto.replace(/MB/g,"NB").replace(/MP/g,"NP").replace(/MN/g,"NN");
 	};
-	// La letra 'x' se reemplaza por las letras 'c','s','j' o la combinación 'cs' según el contexto.
+	// La letra 'x' se reemplaza por las letras 'k','s','j' o la combinación 'ks' según el contexto.
 	if ( v == 2 ) {
 		texto = " " + texto;
 		texto = texto.replace(/([^a-zA-ZáéíóúüñÁÉÍÓÚÜÑ.-])x/g,"$1çæç");
 		texto = texto.replace(/([^a-zA-ZáéíóúüñÁÉÍÓÚÜÑ.-])X/g,"$1ÇÆÇ");
-		texto = texto.replace(/x/g,"cs").replace(/css/g,"cs").replace(/csz/g,"cz");
-		texto = texto.replace(/X/g,"CS").replace(/CSS/g,"CS").replace(/CSZ/g,"CZ");
+		texto = texto.replace(/x/g,"ks").replace(/kss/g,"ks").replace(/ksz/g,"kz");
+		texto = texto.replace(/X/g,"KS").replace(/KSS/g,"KS").replace(/KSZ/g,"KZ");
 		texto = texto.replace(/çæç/g,"s");
 		texto = texto.replace(/ÇÆÇ/g,"S");
 		texto = texto.trim();
@@ -117,10 +123,10 @@ function Simplificar(texto,v,y,s,n,l,a,p) {
 		texto = texto.replace(/LL/g,"Y");
 	};
 	// Versión 2 + Yeísmo
-	// La letra 'k' se reemplaza por la letra 'y'.
+	// La letra 'q' se reemplaza por la letra 'y'.
 	if ( v == 2 && y == 1 ) {
-		texto = texto.replace(/k/g,"y");
-		texto = texto.replace(/K/g,"Y");
+		texto = texto.replace(/q/g,"y");
+		texto = texto.replace(/Q/g,"Y");
 	};
 	// Versión 1-2 + Seseo
 	// La letra 'z' se reemplaza por la letra 's'.
