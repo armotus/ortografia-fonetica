@@ -3,9 +3,9 @@
 // npm test
 
 let expect = require("chai").expect;
-let ortografia = require("../js/ortografia-simplificada.js");
+let ortografia = require("../js/ortografia-fonetica.js");
 
-describe("#ortografia-simplificada", function() {
+describe("#ortografia-fonetica", function() {
 	it("Versión 1", function() {
 	let result = ortografia.Simplificar("vacaciones pingüino seguido queso argentino hola rey cimiento",1,0,0,0,0,0,0);
 	expect(result).to.equal("bakaziones pinguino segido keso arjentino ola rei zimiento");

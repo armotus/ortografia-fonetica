@@ -1,6 +1,6 @@
-# ORTOGRAFÍA SIMPLIFICADA
+# ORTOGRAFÍA FONÉTICA
 
-Una inclusiva simplificación de la ortografía en la lengua española (fork)
+Una inclusiva simplificación de la ortografía en la lengua española.
 
 ## IMAGENES
 
@@ -42,7 +42,7 @@ Una inclusiva simplificación de la ortografía en la lengua española (fork)
 
 &#8226; 5.&nbsp; La letra 'm' se reemplaza por la letra 'n' en las combinaciones 'mb', 'mp' y 'mn'.
 
-&#8226; 6.&nbsp; La letra 'x' se reemplaza por las letras 'c','s','j' o la combinación 'cs' según el contexto.
+&#8226; 6.&nbsp; La letra 'x' se reemplaza por las letras 'k','s','j' o la combinación 'ks' según el contexto.
 
 ## RESUMEN
 
@@ -97,14 +97,14 @@ Una inclusiva simplificación de la ortografía en la lengua española (fork)
 ## INSTALACIÓN
 
 ```bash
-npm i ortografia-simplificada
+npm i ortografia-fonetica
 ```
 
 ## USO
 
 ```js
 let texto = 'Se escribe como se pronuncia y se pronuncia como se escribe';
-let ortografia = require('ortografia-simplificada');
+let ortografia = require('ortografia-fonetica');
 let textoIntegral = ortografia.Simplificar(texto,1,0,0,0,0,0,0);
 
 console.log(textoIntegral);
@@ -120,7 +120,7 @@ npm test
 
 ## DEMO
 
-[HOME](https://armotus.github.io/ortografia-simplificada)
+[HOME](https://armotus.github.io/ortografia-fonetica)
 
 ## LICENCIA
 
