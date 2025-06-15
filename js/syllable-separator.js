@@ -169,7 +169,7 @@ function Separator(text) {
 const dictionary = {
 	"sr": "sr.Â",
 	"sra": "sra.Â",
-	"etc": "etc.Â",
+	"etk": "etk.Â",
 	"pág": "pág.Â",
 	"atte": "atte.Â",
 	"aprox": "aprox.Â",
@@ -180,16 +180,16 @@ const dictionary = {
 	"geniohioideo": "ge.nio.hioi.deo",
 	"geniohioides": "ge.nio.hioi.des",
 	"chihuahuense": "chi.hua.huen.se",
-	"postromántico": "post.ro.mán.ti.co",
+	"postromántiko": "post.ro.mán.ti.ko",
 	"subintendencia": "sub.in.ten.den.cia",
 	"huía": "hu.í.a",
 	"fluía": "flu.í.a",
 	"buhío": "bu.hí.o",
 	"argüía": "ar.gü.í.a",
 	"ushuaia": "u.shua.ia",
-	"cruento": "cru.en.to",
+	"kruento": "kru.en.to",
 	"rehuíos": "rehu.í.os",
 	"rehuíais": "rehu.í.ais",
-	"constituíos": "cons.ti.tu.í.os"
+	"konstituíos": "kons.ti.tu.í.os"
 };
 module.exports = { Separator };

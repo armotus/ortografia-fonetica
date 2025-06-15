@@ -1,6 +1,6 @@
 {
   "name": "ortografia-fonetica",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Una inclusiva simplificación de la ortografía en la lengua española.",
   "main": "js/ortografia-fonetica.js",
   "directories": {
@@ -19,7 +19,7 @@
     "lengua",
     "idioma",
     "lenguaje",
-    "fonetica",
+    "fonética",
     "simplificación",
     "javascript",
     "html5",
@@ -43,6 +43,7 @@
   },
   "homepage": "https://github.com/armotus/ortografia-fonetica#readme",
   "dependencies": {
+    "ortografia-simplificada": "^1.0.2",
     "syllable-separator": "^1.0.0"
   },
   "devDependencies": {
