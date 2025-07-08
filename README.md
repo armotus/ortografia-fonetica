@@ -1,6 +1,6 @@
 # ORTOGRAFÍA FONÉTICA
 
-Una inclusiva simplificación de la ortografía en la lengua española.
+Una ortografía fonética basada en fonemas para la lengua española.
 
 ## IMAGENES
 
@@ -32,9 +32,9 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 ### Reglas : Versión 2 (&nbsp;Base : Versión 1&nbsp;)
 
-&#8226; 1.&nbsp; El dígrafo 'ch' se reemplaza por la letra 'h'.
+&#8226; 1.&nbsp; El dígrafo 'ch' se reemplaza por la letra 'c'.
 
-&#8226; 2.&nbsp; El dígrafo 'll' se reemplaza por la letra 'q'.
+&#8226; 2.&nbsp; El dígrafo 'll' se reemplaza por la letra 'h'.
 
 &#8226; 3.&nbsp; El dígrafo 'rr' se reemplaza por la letra 'v'.
 
@@ -46,25 +46,31 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 ## RESUMEN
 
-&#8226; 1.&nbsp; La letra 'k' siempre se pronuncia como la letra 'k'. (&nbsp;v1&nbsp;) {&nbsp;letra 'k' = fonema /k/&nbsp;}
+&#8226; 1.&nbsp; La letra 'k' siempre se pronuncia como la letra común 'k'. (&nbsp;v1&nbsp;) {&nbsp;letra 'k' = fonema /k/&nbsp;}
 
 &#8226; 2.&nbsp; La letra 'g' siempre se pronuncia como la letra suave 'g'. (&nbsp;v1&nbsp;) {&nbsp;letra 'g' = fonema /g/&nbsp;}
 
 &#8226; 3.&nbsp; La letra 'r' siempre se pronuncia como la letra suave 'r'. (&nbsp;v2&nbsp;) {&nbsp;letra 'r' = fonema /&#638;/&nbsp;}
 
-&#8226; 4.&nbsp; La letra 'v' siempre se pronuncia como la letra fuerte 'r'. (&nbsp;v2&nbsp;) {&nbsp;letra 'v' = fonema /r/&nbsp;}
+&#8226; 4.&nbsp; La letra 'v' siempre se pronuncia como el dígrafo 'rr'. (&nbsp;v2&nbsp;) {&nbsp;letra 'v' = fonema /r/&nbsp;}
 
-&#8226; 5.&nbsp; La letra 'q' siempre se pronuncia como el dígrafo 'll'. (&nbsp;v2&nbsp;) {&nbsp;letra 'q' = fonema /&#654;/&nbsp;}
+&#8226; 5.&nbsp; La letra 'h' siempre se pronuncia como el dígrafo 'll'. (&nbsp;v2&nbsp;) {&nbsp;letra 'h' = fonema /&#654;/&nbsp;}
 
-&#8226; 6.&nbsp; La letra 'h' siempre se pronuncia como el dígrafo 'ch'. (&nbsp;v2&nbsp;) {&nbsp;letra 'h' = fonema /&#116;&#865;&#643;/&nbsp;}
+&#8226; 6.&nbsp; La letra 'c' siempre se pronuncia como el dígrafo 'ch'. (&nbsp;v2&nbsp;) {&nbsp;letra 'c' = fonema /&#116;&#865;&#643;/&nbsp;}
 
-## DETALLE
+## FONEMAS
 
-&#8226; 1.&nbsp; El fonema /b/ puede ser representado por la letra 'b' o la letra 'v'.
+&#8226; 1.&nbsp; Real Academia Española (&nbsp;RAE&nbsp;)
 
-&#8226; 2.&nbsp; El fonema /k/ puede ser representado por la letra 'k', la letra 'c' o la letra 'q'.
+&#8226; 1.&nbsp; / a , e , i , o , u , b , ch , d , f , g , j , k , l , ll , m , n , ñ , p , r , rr , s , t , y , z /
 
-&#8226; 3.&nbsp; La versión 2 siempre debe adaptarse a las reglas establecidas por la versión 1.
+&#8226; 2.&nbsp; Alfabeto Fonético Español (&nbsp;AFE&nbsp;)
+
+&#8226; 2.&nbsp; / a , e , i , o , u , b , c , d , f , g , j , k , l , h , m , n , ñ , p , r , v , s , t , y , z /
+
+&#8226; 3.&nbsp; Alfabeto Fonético Internacional (&nbsp;AFI&nbsp;)
+
+&#8226; 3.&nbsp; / a , e , i , o , u , b , &#116;&#865;&#643; , d , f , g , x , k , l , &#654; , m , n , &#626; , p , &#638; , r , s , t , &#669; , &#952; /
 
 ## FILOSOFÍA
 
@@ -72,21 +78,27 @@ Una inclusiva simplificación de la ortografía en la lengua española.
 
 &#8226; 2.&nbsp; Toda letra denota un solo fonema (&nbsp;que es denotado por una sola letra&nbsp;)
 
-&#8226; 3.&nbsp; Las palabras se escriben separadas en sílabas. Por ejemplo: sub.lu.nar, al.le.to, etc.
+&#8226; 3.&nbsp; Las palabras pueden tener más de una sílaba tónica. Por ejemplo: tíorío, marímarí, etc.
 
-&#8226; 4.&nbsp; Las palabras pueden tener más de una sílaba tónica. Por ejemplo: tíorío, marímarí, etc.
+&#8226; 4.&nbsp; Las palabras pueden escribirse separadas en sílabas. Por ejemplo: sub.lu.nar, al.le.to, etc.
 
 &#8226; 5.&nbsp; Explorar la cantidad máxima de sílabas que se pueden pronunciar con los fonemas del idioma.
 
 &#8226; 6.&nbsp; Explorar la cantidad máxima de palabras que se pueden pronunciar con las sílabas del idioma.
 
+&#8226; 7.&nbsp; Poder usar una ortografía formal establecida por una academia internacional, regional o nacional.
+
+&#8226; 8.&nbsp; Poder usar una ortografía fonética débil basada solo en fonemas y usando un alfabeto comunitario.
+
+&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada solo en alófonos y usando un alfabeto comunitario.
+
 ## BIBLIOGRAFÍA
+
+&#8226; Ensayo : Ortografía en América : Andrés Bello y Juan García del Río (&nbsp;1823&nbsp;)
 
 &#8226; Ensayo : Idearium Futurismo : Agustina Mercedes González López (&nbsp;1916&nbsp;)
 
-&#8226; Ensayo : Idearium Futurismo : Agustina Mercedes González López (&nbsp;2021&nbsp;)
-
-&#8226; TED : ¿Ase falta una nueba ortografía? : Karina Galperin (&nbsp;[Enlace](https://youtu.be/VpkneIesi60)&nbsp;)
+&#8226; TED : ¿Ase falta una nueba ortografía? : Karina Galperín (&nbsp;[Enlace](https://youtu.be/VpkneIesi60)&nbsp;)
 
 &#8226; URL : Alfabeto Fonético Internacional (&nbsp;[Enlace](https://es.wikipedia.org/wiki/Alfabeto_Fon%C3%A9tico_Internacional)&nbsp;)
 
@@ -105,7 +117,7 @@ npm i ortografia-fonetica
 ```js
 let texto = 'Se escribe como se pronuncia y se pronuncia como se escribe';
 let ortografia = require('ortografia-fonetica');
-let textoIntegral = ortografia.Simplificar(texto,1,0,0,0,0,0,0);
+let textoIntegral = ortografia.Simplificar(texto,1,0,0,0,0,0,0,0);
 
 console.log(textoIntegral);
 
