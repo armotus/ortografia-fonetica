@@ -1,6 +1,6 @@
 {
   "name": "ortografia-fonetica",
-  "version": "2.0.1",
+  "version": "2.0.5",
   "description": "Una ortografía fonética basada en fonemas para la lengua española.",
   "main": "js/ortografia-fonetica.js",
   "directories": {
@@ -32,7 +32,9 @@
     "fonológico",
     "transcripción"
   ],
-  "author": "Armotus",
+  "author": {
+    "name": "Armotus"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -43,7 +45,7 @@
   },
   "homepage": "https://github.com/armotus/ortografia-fonetica#readme",
   "dependencies": {
-    "ortografia-simplificada": "^2.0.1",
+    "ortografia-simplificada": "^2.0.5",
     "syllable-separator": "^1.0.0"
   },
   "devDependencies": {

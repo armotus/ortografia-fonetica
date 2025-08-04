@@ -88,9 +88,9 @@ Una ortografía fonética basada en fonemas para la lengua española.
 
 &#8226; 7.&nbsp; Poder usar una ortografía formal establecida por una academia internacional, regional o nacional.
 
-&#8226; 8.&nbsp; Poder usar una ortografía fonética débil basada solo en fonemas y usando un alfabeto comunitario.
+&#8226; 8.&nbsp; Poder usar una ortografía fonética débil basada sólo en fonemas y usando un alfabeto comunitario.
 
-&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada solo en alófonos y usando un alfabeto comunitario.
+&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada sólo en alófonos y usando un alfabeto comunitario.
 
 ## BIBLIOGRAFÍA
 
@@ -228,9 +228,9 @@ Una ortografía fonética basada en fonemas para la lengua española.
 
 &#8226; 7.&nbsp; Poder usar una ortografía formal establecida por una academia internacional, regional o nacional.
 
-&#8226; 8.&nbsp; Poder usar una ortografía fonética débil basada solo en fonemas y usando un alfabeto comunitario.
+&#8226; 8.&nbsp; Poder usar una ortografía fonética débil basada sólo en fonemas y usando un alfabeto comunitario.
 
-&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada solo en alófonos y usando un alfabeto comunitario.
+&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada sólo en alófonos y usando un alfabeto comunitario.
 
 ## BIBLIOGRAFÍA
 

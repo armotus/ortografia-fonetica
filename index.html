@@ -20,14 +20,14 @@
 	<p>Una ortografía fonética basada en fonemas para la lengua española.</p>
 	<input type="checkbox" id="myBox1" onclick="myFunction1();" checked><span>Versión 1</span> <input type="checkbox" id="myBox2" onclick="myFunction2();"><span>Versión 2</span>&nbsp; || <input type="checkbox" id="myBox3" onclick="myFunction3();"><span style="display:inline" id="myYei1">ll</span><span style="display:none" id="myYei2">h</span><span>:y</span> <input type="checkbox" id="myBox4" onclick="myFunction4();"><span>z:s</span> <input type="checkbox" id="myBox5" onclick="myFunction5();"><span>ñ:ni</span> <input type="checkbox" id="myBox6" onclick="myFunction6();"><span style="display:inline" id="myLei1">rr</span><span style="display:none" id="myLei2">vr</span><span>:l</span>&nbsp; || <input type="checkbox" id="myBoxAa" onclick="myCookie();"><span>A:a</span> <input type="checkbox" id="myBoxSp" onclick="myCookie();"><span>“¿¡”</span><span style="display:none"> <input type="checkbox" id="myBoxKa" onclick="myKa();"><span>k:c</span></span>
 	<p id="sectionA">&#8226; <a style="display:inline" id="myReg1" href="#reglas1">Reglas v1</a><a style="display:none" id="myReg2" href="#reglas2">Reglas v2</a><span style="display:none" id="myYeismo">&nbsp;&nbsp;+&nbsp; Yeísmo</span><span style="display:none" id="mySeseo">&nbsp;&nbsp;+&nbsp; Seseo</span><span style="display:none" id="myNeismo">&nbsp;&nbsp;+&nbsp; Neísmo</span><span style="display:none" id="myLeleo">&nbsp;&nbsp;+&nbsp; Leleo</span></p>
-	<p>&#8226; <span id="myLetras">22</span> letras (&nbsp;<span style="cursor:pointer" id="myListA" onclick="myList();">27 letras</span> &#8211; <span style="display:inline" id="myExt1">w.h.<span class="Letter2">c</span>.q.v</span><span style="display:none" id="myExt2">w.q.x</span><span style="display:none" id="myNoh">.h</span><span style="display:none" id="myNoz">.z</span><span style="display:none" id="myNon">.ñ</span><span style="display:none" id="myNov">.v</span><span style="display:none" id="myNor">.r</span>&nbsp;) </p>
+	<p>&#8226; <span id="myLetras">22</span> letras (&nbsp;<span style="cursor:pointer" id="myListA" onclick="myList();">27 letras</span> &#8211; <span style="display:inline" id="myExt1">w.q.<span class="Letter2">c</span>.h.v</span><span style="display:none" id="myExt2">w.q.x</span><span style="display:none" id="myNoh">.h</span><span style="display:none" id="myNoz">.z</span><span style="display:none" id="myNon">.ñ</span><span style="display:none" id="myNov">.v</span><span style="display:none" id="myNor">.r</span>&nbsp;) </p>
 	<p>&#8226; <span id="myFonemas">24</span> <a style="display:inline;color:#181818;background-color:#ffffff" id="myPho" href="#fonemas">fonemas</a> , <span id="myDigrafos">3</span> dígrafos <span id="myD1grafos">(&nbsp;ch<span style="display:inline" id="myNoll">.ll</span><span style="display:inline" id="myNorr">.rr</span>&nbsp;)</span><span id="myD2grafos"></span> , 5 tildes (&nbsp;á.é.í.ó.ú&nbsp;) , 0 diéresis (&nbsp;ü&nbsp;)</p>
 	<p id="myListB" style="display:none">&#8226; 27 letras (&nbsp;a.e.i.o.u + b.c.d.f.g.h.j.k.l.m.n.ñ.<br style="display:none" id="listBr">p.q.r.s.t.v.w.x.y.z&nbsp;)</p>
-	<form><textarea id="myInput" rows="12" cols="90" spellcheck="false" placeholder="Introducir un texto aquí y luego hacer clic en el botón 'Cambiar'"></textarea></form>
+	<form><textarea id="myInput" rows="12" cols="90" spellcheck="false" placeholder="Introducir un texto aquí y luego hacer clic en el botón 'Cambiar'" onmouseup="mySize();"></textarea></form>
 	<br>
 	<button onclick="myChange();">Cambiar</button><span class="spanBreak1">&nbsp;</span><button onclick="myClear();">Limpiar</button><span class="spanBreak2">&nbsp;</span><button onclick="myAaTex();">A:a&nbsp;Tex</button>
 	<br><br>
-	<form><textarea id="myResult" rows="12" cols="90" spellcheck="false" placeholder="Se eskribe komo se pronunzia i se pronunzia komo se eskribe"></textarea></form>
+	<form><textarea id="myResult" rows="12" cols="90" spellcheck="false" placeholder="Se eskribe komo se pronunzia i se pronunzia komo se eskribe" onmouseup="mySize();"></textarea></form>
 	<br>
 	<button onclick="mySave();">Guardar</button><span class="spanBreak1">&nbsp;</span><button id="myCopy" onclick="myCopy();">Copiar</button><span class="spanBreak2">&nbsp;</span><button onclick="myBreak();">Sílabas</button>
 	<br class="dobleBr">
@@ -82,8 +82,8 @@
 	<p>&#8226; 5.&nbsp; Explorar la cantidad máxima de sílabas que se pueden pronunciar con los fonemas del idioma.</p>
 	<p>&#8226; 6.&nbsp; Explorar la cantidad máxima de palabras que se pueden pronunciar con las sílabas del idioma.</p>
 	<p>&#8226; 7.&nbsp; Poder usar una ortografía formal establecida por una academia internacional, regional o nacional.</p>
-	<p>&#8226; 8.&nbsp; Poder usar una <span style="display:inline" onclick="myModoA();">ortografía</span> fonética débil basada solo en fonemas y usando un alfabeto comunitario.</p>
-	<p>&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada solo en alófonos y usando un alfabeto comunitario.</p>
+	<p>&#8226; 8.&nbsp; Poder usar una ortografía fonética débil basada sólo en fonemas y usando un alfabeto comunitario.</p>
+	<p>&#8226; 9.&nbsp; Poder usar una ortografía fonética fuerte basada sólo en alófonos y usando un alfabeto comunitario.</p>
 	<p>&#8226; <a href="#top">Subir</a>&nbsp;&nbsp;<a href="#bibliografia">Base</a></p>
 	<a id="bibliografia"></a>
 	<h2>BIBLIOGRAFÍA</h2>
@@ -99,27 +99,26 @@
 	<h2>LABORATORIO</h2>
 	<button onclick="myBase1();">Original</button><span class="spanBreak1">&nbsp;</span><button onclick="myBase2();">Integral</button><span class="spanBreak2">&nbsp;</span><button id="myLaboratorio" onclick="myLaboratorio();">Reducir</button>
 	<br><br>
-	<form><textarea id="myInput2" rows="12" cols="90" spellcheck="false" placeholder="Introducir un nuevo texto aquí o elegir el texto 'Original' o el texto 'Integral'"></textarea></form>
+	<form><textarea id="myInput2" rows="12" cols="90" spellcheck="false" placeholder="Introducir un nuevo texto aquí o elegir el texto 'Original' o el texto 'Integral'" onmouseup="mySize();"></textarea></form>
 	<br>
-	<form><textarea id="myInput3" rows="3" cols="90" spellcheck="false" placeholder="b:v,h:,ch:dd,ll:x, v: r, ... Aplicar nuevas reglas aquí, luego hacer clic en 'Cambiar'"></textarea></form>
+	<form><textarea id="myInput3" rows="3" cols="90" spellcheck="false" placeholder="b:v,h:,ch:dd,ll:x, v: r, ... Aplicar nuevas reglas aquí, luego hacer clic en 'Cambiar'" onmouseup="mySize2();"></textarea></form>
 	<br>
 	<button onclick="myChange2();">Cambiar</button><span class="spanBreak1">&nbsp;</span><button onclick="myClear2();">Limpiar</button><span class="spanBreak2">&nbsp;</span><button onclick="myAaTex2();">A:a&nbsp;Tex</button>
 	<br><br>
-	<form><textarea id="myResult2" rows="12" cols="90" spellcheck="false" placeholder="Pantalla en modo oscuro o claro : hacer clic en el Título ( Eskritura Futurista )"></textarea></form>
+	<form><textarea id="myResult2" rows="12" cols="90" spellcheck="false" placeholder="Pantalla en modo oscuro o claro : hacer clic en el Título ( Eskritura Futurista )" onmouseup="mySize();"></textarea></form>
 	<br>
 	<button onclick="mySave2();">Guardar</button><span class="spanBreak1">&nbsp;</span><button id="myCopy2" onclick="myCopy2();">Copiar</button><span class="spanBreak2">&nbsp;</span><button onclick="myBreak2();">Sílabas</button>
 	<br class="dobleBr">
+	<p>&#8226; <a href="#top">Subir</a></p>
 	<div id="sectionC">
-	<p><a id="proyecto"></a></p>
+	<p><a id="anexo"></a></p>
+	<h2>TEXTAREA</h2>
+	<p>&#8226; <span id="myTxa" style="display:inline;cursor:pointer;color:#0000ff;background-color:#ffffff" onclick="myModoT();">MODO A</span></p>
 	<h2>PROYECTO</h2>
 	<p>&#8226; <a href="https://github.com/armotus/ortografia-fonetica">HOME</a></p>
-	<h2>LICENCIA</h2>
+	<h2 onclick="myModoA();">LICENCIA</h2>
 	<p>&#8226; <a href="https://opensource.org/license/mit">MIT</a></p>
-	<h2>VERSIÓN</h2>
-	<p>&#8226; 2.0.0</p>
 	</div>
-	<p>&#8226; <a href="#top">Subir</a></p>
-	<br>
 	</div>
 	<script src="js/ortografia.js"></script>
 	<script src="js/silabas.js"></script>
